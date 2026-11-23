@@ -1,0 +1,15 @@
+dataset: steam
+domain_singular: game
+domain_plural: games
+action: play
+history_length: 20
+candidate_size: 20
+base_views: 5
+cd_strength: 3.0
+seed: 42
+keys:
+  genre: "Focus on genre and gameplay-style match to the user's history."
+  popularity: "Focus on popular and widely liked games."
+  novelty: "Focus on less obvious but relevant games."
+  developer: "Focus on developer/franchise similarity when apparent."
+  similarity: "Focus on games most similar to the user's history."

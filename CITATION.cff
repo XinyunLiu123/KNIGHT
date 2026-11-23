@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you find KNIGHT useful in your research, please cite our EACL 2027 paper."
+title: "KNIGHT: Key-attended Controlled Decoding with Topological Enhancement for Uncertainty Quantification in LLM-based Recommendation"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Xinyun
+  - family-names: Ju
+    given-names: Wei
+  - family-names: Qiao
+    given-names: Ziyue
+  - family-names: Luo
+    given-names: Xiao
+repository-code: https://github.com/XinyunLiu123/KNIGHT
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "KNIGHT: Key-attended Controlled Decoding with Topological Enhancement for Uncertainty Quantification in LLM-based Recommendation"
+  authors:
+    - family-names: Liu
+      given-names: Xinyun
+    - family-names: Ju
+      given-names: Wei
+    - family-names: Qiao
+      given-names: Ziyue
+    - family-names: Luo
+      given-names: Xiao
+  collection-title: Proceedings of EACL
+  year: 2027

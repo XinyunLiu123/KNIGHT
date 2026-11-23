@@ -1,0 +1,15 @@
+dataset: ml-1m
+domain_singular: movie
+domain_plural: movies
+action: watch
+history_length: 20
+candidate_size: 20
+base_views: 5
+cd_strength: 3.0
+seed: 42
+keys:
+  genre: "Focus on genre/style match to the user's history."
+  popularity: "Focus on broadly popular and reliable choices."
+  novelty: "Focus on less obvious but still relevant choices."
+  recency: "Focus on more recent-looking choices when appropriate."
+  similarity: "Focus on items most similar to the user's history."

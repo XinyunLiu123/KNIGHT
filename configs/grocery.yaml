@@ -1,0 +1,15 @@
+dataset: grocery
+domain_singular: grocery product
+domain_plural: grocery products
+action: buy
+history_length: 10
+candidate_size: 20
+base_views: 5
+cd_strength: 3.0
+seed: 42
+keys:
+  category: "Focus on product category match to the user's history."
+  brand: "Focus on brand or product-line consistency when apparent."
+  price: "Focus on likely budget and everyday utility."
+  popularity: "Focus on popular and reliable grocery products."
+  similarity: "Focus on products most similar to the user's history."
